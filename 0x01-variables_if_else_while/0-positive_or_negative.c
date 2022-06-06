@@ -5,6 +5,7 @@
 /*
  * main - Check random number is positive,negative or zero
  *
+ * Description: A checker function 
  * Return: 0
 */
 int main(void)
