@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet - print lower case letters
+ * print_alphabet_x10 - print lower case letters
  *
  * Description: This program prints lower case letters
  *
