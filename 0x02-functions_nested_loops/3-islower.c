@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _islower - print lower case letters
+ * @c: Int parameter
  *
  * Description: This program prints lower case letters
  *
