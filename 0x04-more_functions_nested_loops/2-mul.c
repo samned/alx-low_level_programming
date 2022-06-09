@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isdigit - Multiply numbers
+ * mul - Multiply numbers
  * @a: Int parameter
  * @b: Int parameter
  *
