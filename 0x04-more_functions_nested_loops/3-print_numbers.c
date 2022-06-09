@@ -10,9 +10,9 @@ void print_numbers(void)
 {
 	int i;
 
-	for (i = 0; i < 9; i++)
+	for (i = 48; i < 57; i++)
 	{
-		_putchar(i % 10);
+		_putchar(i);
 	}
 	_putchar('\n');
 }
