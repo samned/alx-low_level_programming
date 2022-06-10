@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_line - print n lines of _
+ * @n: number of lines
  *
  * Description: This is a description
  *
