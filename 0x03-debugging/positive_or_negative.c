@@ -1,19 +1,13 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "main.h"
 /**
- * main - Check random number is positive,negative or zero
+ * positive_or_negative - Check random number is positive,negative or zero
  *
  * Description: A checker function
  *
  * Return: 0
-*/
-int main(void)
+ */
+void positive_or_negative(int n)
 {
-	int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	if (n > 0)
 	{
@@ -27,5 +21,4 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
-	return (0);
 }
