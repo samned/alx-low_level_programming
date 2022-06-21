@@ -1,11 +1,9 @@
 #include "main.h"
 /**
- * *_memset() - _memset()
+ * *_memset - memset
  * @s: pointer to the string
  * @b: the byte to fill the string with
  * @n: the number of bytes to fill
- *
- * Description - _memset() fills n bytes of memory starting at s with the
  *
  * Return: pointer to the string
  */
