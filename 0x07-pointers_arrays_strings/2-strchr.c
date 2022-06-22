@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * *_strchr - charachter in string
  * @s: reference string
@@ -15,9 +16,10 @@ char *_strchr(char *s, char c)
 	{
 		if (s[i] == c)
 		{
-			return (c);
+			return (&s[i]);
 		}
+
 		i++;
 	}
-	return (NULL);
+	return (0);
 }
