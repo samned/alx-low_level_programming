@@ -2,6 +2,7 @@
 /**
  * main - main
  * @argc: the number of arguments
+ * @argv: the arguments array
  *
  * Return: 0
  */
