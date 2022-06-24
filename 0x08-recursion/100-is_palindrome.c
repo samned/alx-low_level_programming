@@ -37,6 +37,8 @@ int _strlen(char *s)
 /**
  * palindrome_c - check palindrome
  * @s: string
+ * @len: length
+ * @start: start
  *
  * Return: 0 if not palindrome else return 1
  */
@@ -56,6 +58,6 @@ int palindrome_c(char *s, int len, int start)
 	}
 	else
 	{
-		return palindrome_c(s, len, start + 1);
+		return (palindrome_c(s, len, start + 1));
 	}
 }
