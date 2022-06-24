@@ -4,7 +4,7 @@
  * is_palindrome - is_palindrome
  * @s: string
  *
- * Return 1 if string is palindrome or 0 otherwise
+ * Return: 1 if string is palindrome or 0 otherwise
  */
 int is_palindrome(char *s)
 {
