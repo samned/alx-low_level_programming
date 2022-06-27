@@ -16,13 +16,9 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
-	else
+	for (i = 0; i < (int)size; i++)
 	{
-		for (i = 0; i < (int)size; i++)
-		{
-			*(carr + i) = c;
-		}
-		return (carr);
+		*(carr + i) = c;
 	}
-	return carr;
+	return (carr);
 }
