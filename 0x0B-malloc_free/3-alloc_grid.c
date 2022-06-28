@@ -1,8 +1,13 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * @brief
+ * **alloc_grid - short desc
+ * @width: width
+ * @height: height
  *
+ * Description - descriptioon
+ *
+ * Return: grid
  */
 int **alloc_grid(int width, int height)
 {
